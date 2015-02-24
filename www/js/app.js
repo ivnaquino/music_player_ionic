@@ -59,6 +59,15 @@ angular.module('starter', ['ionic','ngMaterial'])
 		player.play();
 	}
 
+	$scope.download = function (id, titulo, banda) 
+	{
+		// var url = "http://www.goear.com/action/sound/get/";
+		// window.open( url + id );
+		 console.log(id + "  " + titulo + "  " + banda);
+
+		 window.open( "http://ivndevi.ddns.net/goearapi/download.php?id="+id+"&titulo="+titulo+"&banda="+banda  );
+	}
+
 	$scope.getJsonString = function (jsn) 
 	{
 		return JSON.stringify(jsn);
