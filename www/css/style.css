@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+audio{
+	margin: 0 auto;
+}
+small{
+	color: #CCC;
+}
+
+.md-toolbar-tools{
+	color: #FFF;
+	text-align: center;
+}
+.scroll-content{
+	padding-top: 70px;
+}
